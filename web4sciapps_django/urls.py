@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from hw1 import views
+from hw2 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hw1/', views.index),
+    path('hw2/', views.index),
 ]

@@ -13,7 +13,7 @@ def index(request):
     else:
         form = InputForm()
 
-    return render(request, 'hw1.html', {'form': form})
+    return render(request, 'hw2.html', {'form': form})
 
 def present_output(form):
     r = form.r
